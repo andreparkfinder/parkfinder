@@ -1,5 +1,15 @@
-# ParkFinder - Protótipo do Firebase Studio
+# Settings to manage and configure a Firebase App Hosting backend.
+# https://firebase.google.com/docs/app-hosting/configure
 
-Este é um protótipo de aplicativo Next.js criado no Firebase Studio.
+# The command to run to build your app.
+build:
+  command: 'npm run build'
+  
+# The command to run your app.
+start:
+  command: 'npm start'
 
-Este arquivo foi criado para inicializar o repositório no GitHub.
+runConfig:
+  # Increase this value if you'd like to automatically spin up
+  # more instances in response to increased traffic.
+  maxInstances: 1
